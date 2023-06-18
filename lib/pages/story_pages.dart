@@ -27,20 +27,8 @@ class StoryPage extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 44, left: 8),
                 child: Row(
                   children: [
-                    /*  Container(
-                      height: 32,
-                      width: 32,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: NetworkImage(user.imageUrl),
-                          fit: BoxFit.cover,
-                        ),
-                        shape: BoxShape.circle,
-                      ),
-                    ),*/
                     CircleAvatar(
                       backgroundImage: NetworkImage(user.imageUrl),
-                      backgroundColor: Colors.transparent,
                     ),
                     const SizedBox(width: 8),
                     Text(
